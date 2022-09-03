@@ -1,0 +1,11 @@
+CREATE TABLE products(id SERIAL PRIMARY KEY,name VARCHAR(100),price FLOAT,category VARCHAR(60));
+INSERT INTO products(name,price,category) VALUES ('chooclate',15,'food');
+INSERT INTO products(name,price,category) VALUES ('apple',5.25,'food');
+INSERT INTO products(name,price,category) VALUES ('cheese',20.45,'food');
+INSERT INTO products(name,price,category) VALUES ('burger',39.80,'food');
+INSERT INTO products(name,price,category) VALUES ('milk',17.5,'drinks');
+INSERT INTO products(name,price,category) VALUES ('cola',6.12,'drinks');
+INSERT INTO products(name,price,category) VALUES ('sprite',6.12,'drinks');
+INSERT INTO products(name,price,category) VALUES ('water',4.95,'drinks');
+INSERT INTO products(name,price,category) VALUES ('soup',12,'health');
+INSERT INTO products(name,price,category) VALUES ('shampoo',35,'health');
